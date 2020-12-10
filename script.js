@@ -22,6 +22,15 @@ document.querySelectorAll
 ('img')[1].setAttribute
 ('src', secondDiceImage);
 
+
+
+function refreshPage(){
+    window.location.reload()};
+
+
+
+
+
 //Logic for winner
 if (firstRandomNum > secondRandomNum) {
     document.querySelector
